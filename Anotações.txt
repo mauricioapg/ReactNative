@@ -1,0 +1,40 @@
+LINK DA DOCUMENTAÇÃO: https://reactnative.dev/docs/environment-setup
+-----------------------------------------------------------------------------
+
+- INSTALAR O NODE.JS E O NPM
+
+- INSTALAR O CHOOLATEY
+choco install -y nodejs.install python2 jdk8
+
+- INSTALAR O ANDROID STUDIO (VERSÃO DO SDK PRECISA SER PIE(9))
+
+- CONFIGURAR AS VARIÁVEIS DE AMBIENTE
+
+- CRIAR UM NOVO APP
+npx react-native init projetoteste
+OBS: Se não der certo, usa essa:
+
+npx react-native init AwesomeProject --version X.XX.X
+ou essa:
+npx react-native init AwesomeTSProject --template react-native-template-typescript
+ou essa:
+npx --ignore-existing react-native init MyApp --template react-native-template-typescript
+
+- EXECUTAR O APP
+npx react-native run-android
+_____________________________________________________________________________________
+
+- INSTALAÇÃO DO NAVIGATION
+
+npm install react-navigation
+
+npm install @react-navigation/native @react-navigation/stack @react-navigation/drawer
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+_______________________________________
+
+- ABRIR EMULADOR SEM O ANDROID STUDIO
+Navegar até a pasta do emulador e executar:
+
+emulator -avd Nexus_S_API_29

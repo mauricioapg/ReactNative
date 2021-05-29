@@ -1,0 +1,6 @@
+keytool -genkey -v -keystore mycalcimc.keystore -alias mycalcimc -keyalg RSA -keysize 2048 -validity 10000
+
+
+gradlew clean
+
+gradlew assembleRelease
